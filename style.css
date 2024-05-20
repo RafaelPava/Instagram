@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FAFAFA;
+}
+
+.cabecalho{
+    border: 1px solid #DBDBDB;
+    background-color: #FFFFFF;
+}
+
+.cabecalho__menu{
+    display: flex;
+    margin-top: 0.3%;
+    margin-bottom: 0.3%;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 54px;
+}
+
+.cabecalho__menu__esquerda{
+    display: flex;
+    gap: 10px;
+}
+
+.cabecalho__menu__coluna{
+    width: 1px;
+    height: 22px;
+    background-color: #DBDBDB;
+    ;
+}
+
+.cabecalho__menu__caixa-pesquisa{
+    display: flex;
+    width: 215px;
+    height: 28px;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2% 0 0.2% 0;
+    border: 1px solid #DBDBDB;
+    background-color: #FAFAFA;
+    color: #979797;
+}
+
+.cabecalho__menu__direita{
+    display: flex;
+    gap: 15px;
+}
+
+.pagina{
+    display: flex;
+    padding-right: 0;
+    gap: 3%;
+}
+
+.pagina__principal{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    padding-left: 150px;
+    gap: 2%;
+    align-items: center;
+}
+
+.pagina__principal__stories{
+    display: flex;
+    width: 614px;
+    height: 118px;
+    border: 1px solid #DBDBDB;
+    padding: 1.5% 0 0 1%;
+    margin-top: 5%;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    align-items: center;
+    overflow: hidden;
+}
+
+.pagina__principal__stories__pessoas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 66px;
+    height: 100%;
+    gap: 2%;
+    overflow: hidden;
+}
+
+.stories__background{
+    background-image: url(./assets/stories_background-2.png);
+    width: 66px;
+    height: 66px;
+}
+
+.stories__imgs{
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.pagina__princapl__stories__nomes{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.pagina__side-bar{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: 5%;
+    margin-right: 40%;
+    gap: 10px;
+    width: 293px;
+    position: absolute;
+    left: 940px;
+    top: 50px;
+}
+
+.pagina__side-bar__usuarios{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.pagina__side-bar__nomes{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.pagina__side-bar__sugestoes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto1{
+    font-size: 12px;
+    font-weight: 500;
+    color: #8E8E8E;
+}
+
+.texto2{
+    font-size: 12px;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+.texto3{
+    font-size: 12px;
+    font-weight: 500;
+    color: #139EF2;
+}
+
+.texto4{
+    font-size: 11px;
+    font-weight: 400;
+    color: #C7C7C7;
+}
+
+.pagina__side-bar__seguir1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 110px;
+    gap: 20px;
+}
+
+.pagina__side-bar__seguir2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 143px;
+    gap: 20px;
+}
+
+.pagina__side-bar__seguir3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 97px;
+    gap: 20px;
+}
+
+.pagina__side-bar__seguir4{
+    display: flex;
+    flex-direction: column;
+    margin-left: 110px;
+    gap: 20px;
+}
+
+.pagina__side-bar__seguir5{
+    display: flex;
+    flex-direction: column;
+    margin-left: 129px;
+    gap: 20px;
+}
+
+.pagina__side-bar__informacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 8px;
+}
+
+.pagina__principal__1{
+    display: flex;
+    flex-direction: column;
+    width: 614px;
+    height: 749px;
+    border: 1px solid #DBDBDB;
+}
+
+.pagina__principal__2{
+    display: flex;
+    flex-direction: column;
+    width: 614px;
+    height: 749px;
+    border: 1px solid #DBDBDB;
+}
+
+.pagina__principal__3{
+    display: flex;
+    flex-direction: column;
+    width: 614px;
+    height: 749px;
+    border: 1px solid #DBDBDB;
+}
+
+.pagina__principal__cabecalho__esquerda{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.pagina__principal__cabecalho__direita{
+    display: flex;
+}
+
+.pagina__principal__1__cabecalho{
+    display: flex;
+    height: 10%;
+    padding: 2% 2% 2% 2%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.pagina__principal__1__footer{
+    display: flex;
+    flex-direction: column;
+    height: 15%;
+}
+
+.pagina__principal__footer__texto{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.pagina__principal__1__footer__icones{
+    display: flex;
+    padding: 2% 2% 2% 2%;
+    justify-content: space-between;
+}
+
+.pagina__principal__footer__icones__esquerda{
+    display: flex;
+    gap: 8%;
+}
+
+.pagina__principal__footer__icones__direita{
+    display: flex;
+}
+
+.pagina__principal__footer__curtidas{
+    display: flex;
+    padding: 0 2% 2% 2%;
+    gap: 8px;
+    align-items: center;
+}
+
+.pagina__principal__2__cabecalho{
+    display: flex;
+    height: 10%;
+    padding: 2% 2% 2% 2%;
+    align-items: center;
+    gap: 10px;
+}
+
+.pagina__principal__2__footer{
+    display: flex;
+    flex-direction: column;
+    height: 15%;
+}
+
+.pagina__principal__2__footer__icones{
+    display: flex;
+    padding: 2% 2% 2% 2%;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.pagina__principal__3__cabecalho{
+    display: flex;
+    height: 10%;
+    padding: 2% 2% 2% 2%;
+    align-items: center;
+    gap: 10px;
+}
+
+@media only screen and (max-width: 614px){
+    .pagina__side-bar{display: none;}
+    .cabecalho__menu{justify-content: space-between;}
+    .cabecalho__menu__caixa-pesquisa{display: none;}
+    .cabecalho__menu__coluna{display: none;}
+    .cabecalho__direita__imgs{display: none;}
+    .stories__setinha{display: none;}
+    .pagina__principal{padding-left: 0; align-self: center; gap: 20px;width: 100vw;}
+    .pagina__principal__stories{width: 100vw;}
+    .pagina__principal__stories__pessoas{padding-top: 25px;}
+    .pagina__principal__1{width: 100vw; height: 2.5%;}
+    .pagina__principal__2{width: 100vw; height: 2.5%;}
+    .pagina__principal__3{width: 100vw; height: 2.5%;}
+}
+
+@media only screen and (max-width: 935px){
+    .pagina__side-bar{display: none;}
+}
